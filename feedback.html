@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="responsive">
+<head>
+<title>Feedback</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<body>
+  <div class="banner">
+  <div class="navbar">
+  <h1 style=" text-align: left; font-family:Impact, sans-serif; font-size:500%; 
+    color:hsl(0, 0%, 100%);">P C N L</h1>
+
+</body>
+<style>
+
+a:link, a:visited {
+  color: rgb(8, 8, 8);
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+     background-color: hsl(216, 98%, 52%);
+  }
+</style>
+  <a href="index.html">HOME  </a>
+  <br></br>
+  <a href="enrollment.html">ENROLLMENT   </a>
+  <br></br>
+  <a href="institution.html">INSTITUTIONAL PROFILE </a>
+  <br></br>
+  <a href="feedback.html">FEEDBACK</a>
+</div>
+
+  <hr>
+  <br></br>
+  <center><form action="submit-feedback.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" required></textarea>
+    
+    <input type="submit" value="Submit">
+  </form></center>
+  <hr>
+  <br>
+  <center><button>Feedback</button>
+  <button class="btn-primary" id="feedback-btn" onclick="sendFeedback()">Leave Feedback</button></center>
+  <hr>
+  </p></center>
+
+<br>
+<br>
+<hr><br></br>
+<center><p style="background-color:rgb(9, 96, 248); font-style:italic;">
+<b>PCNL2023<br>
+<hr>
+</p></center>
+  <style>
+body {
+    background-image: url('image/bckgd.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }     
+  </style>
+<head>
+</body>
+</html>
